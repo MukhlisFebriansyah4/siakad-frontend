@@ -8,10 +8,12 @@
   <title>Dashboard</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../../../../public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../public/admin/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
   <link rel="stylesheet" href="../../../../public/admin/bower_components/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../../../../public/admin/bower_components/Ionicons/css/ionicons.min.css">
   <link rel="stylesheet" href="../../../../public/admin/dist/css/AdminLTE.min.css">
   <link rel="stylesheet" href="../../../../public/admin/dist/css/skins/skin-blue.min.css">
+  <link rel="stylesheet" href="../../../../plugins/timepicker/bootstrap-timepicker.min.css">
   <!-- Google Font -->
   <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -166,6 +168,7 @@
   </aside>
 
   <!-- Content Wrapper. Contains page content -->
+  <form method="post">
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
@@ -201,7 +204,7 @@
                 <div class="input-group-addon">
                   <i class="fa fa-user"></i>
                 </div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required="">
               </div>
             </div>
           </div>
@@ -212,7 +215,7 @@
                 <div class="input-group-addon">
                   <i class="fa fa-building"></i>
                 </div>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" required="">
               </div>
             </div>
           </div>
@@ -223,14 +226,14 @@
                 <div class="input-group-addon">
                   <i class="fa fa-calendar"></i>
                 </div>
-                <input type="text" class="form-control pull-right" id="datepicker">
+                <input type="date" class="form-control pull-right" data-inputmask="'alias': 'dd/mm/yyyy'" data-mask required="">
               </div>
             </div>
           </div>
           <div class="col-md-6">
             <div class="form-grup">
               <label>Jenis Kelamin:</label>
-              <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
+              <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                 <option selected="selected" disabled="disabled">Jenis Kelamin</option>
                 <option>Laki Laki</option>
                 <option>Wanita</option>
@@ -240,7 +243,7 @@
           <div class="col-md-6">
             <div class="form-grup">
               <label>Status Martial:</label>
-              <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+              <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                 <option selected="selected" disabled="disabled">Status Martial</option>
                 <option>Menikah</option>
                 <option>Belum Menikah</option>
@@ -250,7 +253,7 @@
           <div class="col-md-6">
             <div class="form-grup">
               <label>Kewarganegaraan:</label>
-              <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
+              <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                 <option selected="selected" disabled="disabled">Kewarganegaraan</option>
                 <option>WNI</option>
                 <option>WNA</option>
@@ -260,7 +263,7 @@
           <div class="col-md-6">
             <div class="form-grup">
               <label>Agama:</label>
-              <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+              <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                 <option selected="selected" disabled="disabled">Agama</option>
                 <option>Islam</option>
                 <option>Hindu</option>
@@ -272,7 +275,7 @@
           <div class="col-md-6">
             <div class="form-grup">
               <label>Alamat Tempat Tinggal:</label>
-              <textarea class="form-control" rows="4" placeholder="Enter..."></textarea>
+              <textarea class="form-control" rows="4" placeholder="Enter..." required=""></textarea>
             </div>
           </div>
           <div class="col-md-6">
@@ -282,7 +285,7 @@
                 <div class="input-group-addon">
                   <i class="fa fa-phone"></i>
                 </div>
-                <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask>
+                <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
               </div>
             </div>
           </div>
@@ -293,7 +296,7 @@
                 <div class="input-group-addon">
                   <i class="fa fa-phone"></i>
                 </div>
-                <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask>
+                <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
               </div>
             </div>
           </div>
@@ -304,7 +307,7 @@
                 <div class="input-group-addon">@
                   <i class="fa fa-email"></i>
                 </div>
-                <input type="email" class="form-control" id="ExampleInputEmail1" placeholder="Enter Email">
+                <input type="email" class="form-control" id="ExampleInputEmail1" placeholder="Enter Email" required="">
               </div>
             </div>
           </div>
@@ -315,7 +318,7 @@
                 <div class="input-group-addon">
                   <i class="fa fa-btc"></i>
                 </div>
-                <input type="text" class="form-control pull-right">
+                <input type="text" class="form-control pull-right" required="">
               </div>
             </div>
           </div>
@@ -339,7 +342,7 @@
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Asal Sekolah:</label>
-                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Asal Sekolah</option>
                     <option>SMK</option>
                     <option>SMA</option>
@@ -353,7 +356,7 @@
                     <div class="input-group-addon">
                       <i class="fa fa-gg-circle"></i>
                     </div>
-                    <input type="text" class="form-control pull-right">
+                    <input type="text" class="form-control pull-right" required="">
                   </div>
                 </div>
               </div>
@@ -364,7 +367,7 @@
                     <div class="input-group-addon">
                       <i class="fa fa-building"></i>
                     </div>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" required="">
                   </div>
                 </div>
               </div>
@@ -375,7 +378,7 @@
                     <div class="input-group-addon">
                       <i class="fa fa-hourglass-half"></i>
                     </div>
-                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask>
+                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
                   </div>
                 </div>
               </div>
@@ -386,14 +389,14 @@
                     <div class="input-group-addon">
                       <i class="fa fa-windows"></i>
                     </div>
-                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask>
+                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Alamat Sekolah:</label>
-                  <textarea class="form-control pull-right" rows="4" placeholder="Enter..."></textarea>
+                  <textarea class="form-control pull-right" rows="4" placeholder="Enter..." required=""></textarea>
                 </div>
               </div>
             </div>
@@ -420,7 +423,7 @@
                     <div class="input-group-addon">
                       <i class="fa fa-user"></i>
                     </div>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" required="">
                   </div>
                 </div>
               </div>
@@ -431,7 +434,7 @@
                     <div class="input-group-addon">
                       <i class="fa fa-phone"></i>
                     </div>
-                    <input type="number" class="form-control pull-right" data-inputmask=""mask": "(999) 999-9999"" data-mask>
+                    <input type="number" class="form-control pull-right" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
                   </div>
                 </div>
               </div>
@@ -442,14 +445,14 @@
                     <div class="input-group-addon">@
                       <i class="fa fa-email"></i>
                     </div>
-                    <input type="email" class="form-control" id="ExampleInputEmail1" placeholder="Enter Email">
+                    <input type="email" class="form-control" id="ExampleInputEmail1" placeholder="Enter Email" required="">
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Pekerjaan:</label>
-                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Pekerjaan</option>
                     <option>PNS</option>
                     <option>TNI/Polri</option>
@@ -469,14 +472,14 @@
                     <div class="input-group-addon">
                       <i class="fa fa-building-o"></i>
                     </div>
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" required="">
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Pendidikan Terakhir:</label>
-                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Pendidikan Terakhir</option>
                     <option>S3</option>
                     <option>S2</option>
@@ -506,7 +509,7 @@
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Kelas:</label>
-                  <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Kelas</option>
                     <option>Reguler</option>
                     <option>Karyawan</option>
@@ -517,7 +520,7 @@
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Ekonomi & Manajemen:</label>
-                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Ekonomi & Manajemen</option>
                     <option>D3 Keuangan Perbankan</option>
                     <option>D3 Akuntansi</option>
@@ -530,7 +533,7 @@
               <div class="col-md-6">
                 <div class="form-grup">
                   <label>Informatika:</label>
-                  <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
+                  <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
                     <option selected="selected" disabled="disabled">Informatika</option>
                     <option>S1 Teknik Informatika</option>
                     <option>D3 Komputerisasi Akuntansi</option>
@@ -545,7 +548,7 @@
     <div class="col-md-6">
       <div class="form-grup">
         <label for="ExampleInputFor">Masukkan File:</label>
-        <input type="file" id="ExampleInputFile">
+        <input type="file" id="ExampleInputFile" required="">
         <p class="help-block">Masukkan Foto</p>
       </div>
     </div>
@@ -554,6 +557,7 @@
     </section>
     <!-- /.content -->
   </div>
+</form>
   <!-- /.content-wrapper -->
 
   <!-- Main Footer -->

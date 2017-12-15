@@ -28,7 +28,7 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition" background="../../../public/admin/dist/img/wall-login.jpg" style="background-repeat: no-repeat;background-size: 100%;">
+<body class="hold-transition" background="../../../public/admin/dist/img/wall-login1.jpg" style="background-repeat: no-repeat;background-size: 100%;">
 <div class="login-box">
   <div class="login-logo">
     <a href="login-mahasiswa.php"><b>Sistem Akademik Mahasiswa</b></a>
