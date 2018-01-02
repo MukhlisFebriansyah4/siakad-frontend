@@ -33,8 +33,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to Siakad <br>Mahasiswa</p>
-
+    <p class="login-box-msg">Sign in to Siakad <br>Tata Usaha</p>
 
     <form action="../dashboard/dashboard.php" method="post">
       <div class="form-group has-feedback">

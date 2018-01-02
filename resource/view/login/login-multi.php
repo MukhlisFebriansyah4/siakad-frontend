@@ -33,8 +33,7 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to Siakad <br>Mahasiswa</p>
-
+    <p class="login-box-msg">Sign in to Siakad </p>
 
     <form action="../dashboard/dashboard.php" method="post">
       <div class="form-group has-feedback">
@@ -45,6 +44,15 @@
         <input type="password" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
+      <div class="form-group">                  
+                  <select class="form-control">
+                    <option disabled="" selected="">Access To</option>
+                    <option>Admin</option>
+                    <option>Dosen</option>
+                    <option>Mahasiswa</option>
+                    <option>Tata Usaha</option>                                      
+                  </select>
+                </div>      
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
