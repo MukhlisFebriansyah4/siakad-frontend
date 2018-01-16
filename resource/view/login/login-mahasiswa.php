@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -35,9 +33,9 @@
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-    <p class="login-box-msg">Sign in to SIAkad</p>
+    <p class="login-box-msg">Sign in to Siakad</p>
 
-    <form action="../dashboard/dashboard.php"" method="post">
+    <form action="../dashboard/dashboard.php" method="post">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="Username">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>

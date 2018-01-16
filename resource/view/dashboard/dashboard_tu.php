@@ -47,7 +47,7 @@
               <!-- The user image in the navbar-->
               <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Mukhlis Febriansyah</span>
+              <span class="hidden-xs">Muhamad fahril suhaemi</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -55,7 +55,7 @@
                 <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
+                   Muhamad fahril suhaemi - Web Developer of SMK WIKRAMA BOGOR
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -102,7 +102,7 @@
           <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Mukhlis Febriansyah</p>
+          <p>Muhamad fahril suahemi</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -114,15 +114,14 @@
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Kartu Rencana Study</a></li>
+            <li><a href="Pembayaran.php">Kartu Pembayaran Study</a></li>
             <li><a href="#">Kartu Hasil Study</a></li>
-            <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -133,7 +132,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Kartu Rencana Study</a></li>
-            <li><a href="#">Kartu Hasil Study</a></li>
+            <li><a href="nilai.php">Kartu Hasil Study</a></li>
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
@@ -160,7 +159,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Selamat Datang Mahasiswa/Mahasiswi        
+        Selamat Datang Tatausaha        
       </h1>    
     </section>
 

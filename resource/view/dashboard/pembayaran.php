@@ -47,7 +47,7 @@
               <!-- The user image in the navbar-->
               <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Mukhlis Febriansyah</span>
+              <span class="hidden-xs">Muhamad fahril suhaemi</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -55,7 +55,7 @@
                 <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
+                   Muhamad fahril suhaemi - Web Developer of SMK WIKRAMA BOGOR
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -102,7 +102,7 @@
           <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Mukhlis Febriansyah</p>
+          <p>Muhamad fahril suahemi</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -114,15 +114,14 @@
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Kartu Rencana Study</a></li>
+            <li><a href="#">Kartu Pembayaran Study</a></li>
             <li><a href="#">Kartu Hasil Study</a></li>
-            <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -133,7 +132,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Kartu Rencana Study</a></li>
-            <li><a href="#">Kartu Hasil Study</a></li>
+            <li><a href="nilai.php">Kartu Hasil Study</a></li>
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
@@ -158,19 +157,48 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Selamat Datang Mahasiswa/Mahasiswi        
-      </h1>    
+    <section class="content-header" >
+          
     </section>
 
     <!-- Main content -->
     <section class="content container-fluid">
-
-      <!--------------------------
-        | Your Page Content Here |
-        -------------------------->
-
+      <div class="input-group">
+        <label>ID SISWA</label>
+        <br>
+        <input type="text" name="" class="form-control" style="width: 400px;">
+      </div>
+      <div class="input-group">
+        <label>NAMA SISWA</label>
+        <br>
+        <input type="text" name="" class="form-control" style="width: 400px;">
+      </div>
+      <div class="input-group">
+        <label>JURUSAN</label>
+        <br>
+        <select class="option" style="width: 400px; height: 30px;">
+          <OPTION selected disabled>PILIH JURUSAN</OPTION>
+          <option>RPL</option>
+          <option>MMD</option>
+          <option>APK</option>
+          <option>TKJ</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label>SEMESTER</label>
+        <br>
+        <select class="option" style="width: 400px; height: 30px;">
+          <OPTION selected disabled>PILIH SEMESTER</OPTION>
+          <option>SEMESTER 1</option>
+          <option>SEMESTER 2</option>
+          <option>SEMESTER 3</option>
+          <option>SEMESTER 4</option>
+          <option>SEMESTER 5</option>
+          <option>SEMESTER 6</option>
+          <option>SEMESTER 7</option>
+          <option>SEMESTER 8</option>
+        </select>
+      </div>
     </section>
     <!-- /.content -->
   </div>
