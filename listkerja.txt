@@ -1,8 +1,8 @@
-absen_dosen 
-absen_mahasiswa 
-berita acara kuliah
+absen_dosen = saadilah = 
+absen_mahasiswa = fahril 
+berita acara kuliah =
 card 
-dosen
+dosen 
 mahasiswa
 mahasiswa detail
 matkuliah
@@ -11,3 +11,8 @@ model_has_permissions
 model_has_roles
 password_resets
 permissions
+progrestu
+roles
+role_has_permissions
+ruangan
+users
