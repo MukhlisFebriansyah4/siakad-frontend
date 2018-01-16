@@ -37,11 +37,20 @@
   <div class="login-box-body">
     <p class="login-box-msg">Sign in to SIAkad</p>
 
-    <form action="../dashboard/dashboard.php"" method="post">
+    <form action="../dashboard/dashboard.php" method="post">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="Username">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
+      <div class="form-group">
+        <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
+          <option selected="selected" disabled="disabled">Hak Akses</option>
+          <option>Mahasiswa</option>
+          <option>Dosen</option>
+          <option>Admin</option>
+        </select>
+        <span class="select2 select2-container select2-container--default select2-container--below select2-container--focus" dir="ltr" style="width:100%;"></span>
+      </div> 
       <div class="form-group has-feedback">
         <input type="password" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
@@ -66,7 +75,6 @@
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
-
 <!-- jQuery 3 -->
 <script src="../../../public/admin/bower_components/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->

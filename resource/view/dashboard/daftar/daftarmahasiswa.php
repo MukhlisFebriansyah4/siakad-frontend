@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dashboard</title>
+  <title>Form Daftar Mahasiswa</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../../../../public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../../../public/admin/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker.min.css">
@@ -28,7 +28,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>SIA</b></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SIA</b>kad</span>
     </a>
@@ -49,7 +49,7 @@
               <!-- The user image in the navbar-->
               <img src="../../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Mukhlis Febriansyah</span>
+              <span class="hidden-xs">Reizas</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -57,7 +57,7 @@
                 <img src="../../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
+                  Reizas - Web Developer of SMK WIKRAMA BOGOR
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -104,7 +104,7 @@
           <img src="../../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Mukhlis Febriansyah</p>
+          <p>Reizas</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -113,7 +113,7 @@
 
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
-        <li class="header">HEADER</li>
+        <li class="header">FORM PILIHAN</li>
         <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
@@ -551,8 +551,8 @@
         <input type="file" id="ExampleInputFile" required="">
         <p class="help-block">Masukkan Foto</p>
       </div>
+      <button class="btn btn-block btn-primary btn-lg" style="width:40%;margin-left:40%;margin-top:-13%;">Simpan</button>   
     </div>
-    <button class="btn btn-block btn-primary btn-lg" style="margin-top:6%;">Simpan</button>   
 
     </section>
     <!-- /.content -->
@@ -567,7 +567,7 @@
       Anything you want
     </div>
     <!-- Default to the left -->
-    <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
+    <strong>Copyright &copy; 2018 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
   
   <!-- Add the sidebar's background. This div must be placed
