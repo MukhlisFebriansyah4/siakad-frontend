@@ -26,38 +26,33 @@
   <!-- Google Font -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition" background="../../../public/admin/dist/img/wall-login1.jpg" style="background-repeat: no-repeat;background-size: 100%;">
+<body class="hold-transition" background="../../../public/admin/dist/img/wall-login.jpg" style="background-repeat: no-repeat;background-size: 100%;">
 <div class="login-box">
   <div class="login-logo">
     <a href="login-mahasiswa.php"><b>Sistem Akademik</b></a>
   </div>
   <!-- /.login-logo -->
   <div class="login-box-body">
-<<<<<<< HEAD
-    <p class="login-box-msg">Sign in to Siakad</p>
-=======
-    <p class="login-box-msg">Sign in to Siakad <br>Mahasiswa</p>
-
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
+    <p class="login-box-msg">Sign in to Siakad </p>
 
     <form action="../dashboard/dashboard.php" method="post">
       <div class="form-group has-feedback">
         <input type="text" class="form-control" placeholder="Username">
         <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
       </div>
-      <div class="form-group">
-        <select class="form-control select2 select2-hidden-accessible" style="width:100%;" tabindex="-1" aria-hidden="true">
-          <option selected="selected" disabled="disabled">Hak Akses</option>
-          <option>Mahasiswa</option>
-          <option>Dosen</option>
-          <option>Admin</option>
-        </select>
-        <span class="select2 select2-container select2-container--default select2-container--below select2-container--focus" dir="ltr" style="width:100%;"></span>
-      </div> 
       <div class="form-group has-feedback">
         <input type="password" class="form-control" placeholder="Password">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
+      <div class="form-group">                  
+                  <select class="form-control">
+                    <option disabled="" selected="">Access To</option>
+                    <option>Admin</option>
+                    <option>Dosen</option>
+                    <option>Mahasiswa</option>
+                    <option>Tata Usaha</option>                                      
+                  </select>
+                </div>      
       <div class="row">
         <div class="col-xs-8">
           <div class="checkbox icheck">
@@ -78,6 +73,7 @@
   <!-- /.login-box-body -->
 </div>
 <!-- /.login-box -->
+
 <!-- jQuery 3 -->
 <script src="../../../public/admin/bower_components/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->

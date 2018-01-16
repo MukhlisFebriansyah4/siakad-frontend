@@ -1,0 +1,18 @@
+absen_dosen = saadilah = 
+absen_mahasiswa = fahril 
+berita acara kuliah =
+card 
+dosen 
+mahasiswa = reiza ganteng
+mahasiswa detail
+matkuliah
+migrations
+model_has_permissions
+model_has_roles
+password_resets
+permissions
+progrestu
+roles
+role_has_permissions
+ruangan
+users
