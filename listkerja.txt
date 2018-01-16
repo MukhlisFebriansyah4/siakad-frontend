@@ -1,11 +1,11 @@
 absen_dosen = saadilah (Selesai)
 absen_mahasiswa = fahril 
-berita acara kuliah =
+berita acara kuliah = Mukhlis Febriansyah
 card 
-dosen 
-mahasiswa = reiza ganteng
+dosen = Mukhlis = Selesai
+mahasiswa 
 mahasiswa detail
-matkuliah
+matkuliah = Mukhlis = Selesai
 migrations
 model_has_permissions
 model_has_roles
