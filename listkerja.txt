@@ -3,7 +3,7 @@ absen_mahasiswa = fahril
 berita acara kuliah =
 card 
 dosen 
-mahasiswa
+mahasiswa = reiza ganteng
 mahasiswa detail
 matkuliah
 migrations
