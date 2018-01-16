@@ -2,10 +2,10 @@ absen_dosen = saadilah =
 absen_mahasiswa = fahril 
 berita acara kuliah =
 card 
-dosen 
-mahasiswa
+dosen = Mukhlis = Selesai
+mahasiswa 
 mahasiswa detail
-matkuliah
+matkuliah = Mukhlis = Selesai
 migrations
 model_has_permissions
 model_has_roles
