@@ -1,6 +1,6 @@
 absen_dosen = saadilah = 
 absen_mahasiswa = fahril 
-berita acara kuliah =
+berita acara kuliah = Mukhlis Febriansyah
 card 
 dosen = Mukhlis = Selesai
 mahasiswa 

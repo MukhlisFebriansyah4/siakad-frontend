@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dosen</title>
+  <title>Dashboard</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../../../public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../../public/admin/bower_components/font-awesome/css/font-awesome.min.css">
@@ -47,7 +47,7 @@
               <!-- The user image in the navbar-->
               <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-              <span class="hidden-xs">Mukhlis Febriansyah</span>
+              <span class="hidden-xs">Muhamad fahril suhaemi</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -55,7 +55,7 @@
                 <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
+                   Muhamad fahril suhaemi - Web Developer of SMK WIKRAMA BOGOR
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -102,7 +102,7 @@
           <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-          <p>Mukhlis Febriansyah</p>
+          <p>Muhamad fahril suahemi</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -114,15 +114,14 @@
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="#">Kartu Rencana Study</a></li>
+            <li><a href="#">Kartu Pembayaran Study</a></li>
             <li><a href="#">Kartu Hasil Study</a></li>
-            <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -133,7 +132,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Kartu Rencana Study</a></li>
-            <li><a href="#">Kartu Hasil Study</a></li>
+            <li><a href="nilai.php">Kartu Hasil Study</a></li>
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
@@ -149,16 +148,6 @@
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Input Data</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="daftar/daftarmahasiswa.php">Pendaftaran Mahasiswa</a></li>
-          </ul>
-        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -168,92 +157,48 @@
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <section class="content-header">
-      <h1>
-        Input Data Dosen
-      </h1>    
+    <section class="content-header" >
+          
     </section>
 
     <!-- Main content -->
-    <section class="content container-fluid">      
-        <div class="box box-default">
-      <div class="box-header with-border">
-        <h3 class="box-title">Form Input Data Dosen</h3>
-          <div class="box-tools pull-right">
-            <button type="button" class="btn btn-box-tool" data-widget="collapse">
-              <i class="fa fa-minus"></i>
-            </button>
-            <button type="button" class="btn btn-box-tool" data-widget="remove">
-              <i class="fa fa-remove"></i>
-            </button>
-          </div>
-          <div class="box-body">
-            <div class="row">
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Nomer Induk Pegawai</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-gg-circle"></i>
-                    </div>
-                    <input type="text" class="form-control pull-right" required="">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Nama Dosen</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-gg-circle"></i>
-                    </div>
-                    <input type="text" class="form-control pull-right" required="">
-                  </div>
-                </div>
-              </div>              
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Nomer Telepon Dosen</label>
-                  <div class="input-group pull-right">
-                    <div class="input-group-addon">
-                      <i class="fa fa-hourglass-half"></i>
-                    </div>
-                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
-                  </div>
-                </div>
-              </div>              
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Email Dosen</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-windows"></i>
-                    </div>
-                    <input type="text" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
-                  </div>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Alamat Dosen</label>
-                  <textarea class="form-control" rows="4" placeholder="Enter..." required=""></textarea>
-                </div>
-              </div
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Matakuliah ID</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-windows"></i>
-                    </div>
-                    <input type="text" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>    
+    <section class="content container-fluid">
+      <div class="input-group">
+        <label>ID SISWA</label>
+        <br>
+        <input type="text" name="" class="form-control" style="width: 400px;">
       </div>
-    </div>
+      <div class="input-group">
+        <label>NAMA SISWA</label>
+        <br>
+        <input type="text" name="" class="form-control" style="width: 400px;">
+      </div>
+      <div class="input-group">
+        <label>JURUSAN</label>
+        <br>
+        <select class="option" style="width: 400px; height: 30px;">
+          <OPTION selected disabled>PILIH JURUSAN</OPTION>
+          <option>RPL</option>
+          <option>MMD</option>
+          <option>APK</option>
+          <option>TKJ</option>
+        </select>
+      </div>
+      <div class="input-group">
+        <label>SEMESTER</label>
+        <br>
+        <select class="option" style="width: 400px; height: 30px;">
+          <OPTION selected disabled>PILIH SEMESTER</OPTION>
+          <option>SEMESTER 1</option>
+          <option>SEMESTER 2</option>
+          <option>SEMESTER 3</option>
+          <option>SEMESTER 4</option>
+          <option>SEMESTER 5</option>
+          <option>SEMESTER 6</option>
+          <option>SEMESTER 7</option>
+          <option>SEMESTER 8</option>
+        </select>
+      </div>
     </section>
     <!-- /.content -->
   </div>

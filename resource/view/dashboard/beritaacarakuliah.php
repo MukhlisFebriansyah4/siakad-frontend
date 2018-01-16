@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dosen</title>
+  <title>Berita Acara Kuliah</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../../../public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../../public/admin/bower_components/font-awesome/css/font-awesome.min.css">
@@ -170,7 +170,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Input Data Dosen
+        Input Data Mata Kuliah
       </h1>    
     </section>
 
@@ -178,7 +178,7 @@
     <section class="content container-fluid">      
         <div class="box box-default">
       <div class="box-header with-border">
-        <h3 class="box-title">Form Input Data Dosen</h3>
+        <h3 class="box-title">Form Input Data Berita Acara Kuliah</h3>
           <div class="box-tools pull-right">
             <button type="button" class="btn btn-box-tool" data-widget="collapse">
               <i class="fa fa-minus"></i>
@@ -191,7 +191,7 @@
             <div class="row">
               <div class="col-md-6">
                 <div class="form-grup">
-                  <label>Nomer Induk Pegawai</label>
+                  <label>Program Study ID</label>
                   <div class="input-group">
                     <div class="input-group-addon">
                       <i class="fa fa-gg-circle"></i>
@@ -202,29 +202,50 @@
               </div>
               <div class="col-md-6">
                 <div class="form-grup">
-                  <label>Nama Dosen</label>
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <i class="fa fa-gg-circle"></i>
-                    </div>
-                    <input type="text" class="form-control pull-right" required="">
-                  </div>
+                  <label>ID Dosen</label>
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
+                    <option selected="selected" disabled="disabled">Nama Dosen</option>
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
                 </div>
               </div>              
               <div class="col-md-6">
                 <div class="form-grup">
-                  <label>Nomer Telepon Dosen</label>
+                  <label>Tanggal</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-building"></i>
+                    </div>
+                    <input type="date" class="form-control" required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Acara Mulai/Masuk</label>
                   <div class="input-group pull-right">
                     <div class="input-group-addon">
                       <i class="fa fa-hourglass-half"></i>
                     </div>
-                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                    <input type="time" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
                   </div>
                 </div>
-              </div>              
+              </div>
               <div class="col-md-6">
                 <div class="form-grup">
-                  <label>Email Dosen</label>
+                  <label>Acara Selesei</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-windows"></i>
+                    </div>
+                    <input type="time" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Materi yang di sampaikan</label>
                   <div class="input-group">
                     <div class="input-group-addon">
                       <i class="fa fa-windows"></i>
@@ -235,18 +256,12 @@
               </div>
               <div class="col-md-6">
                 <div class="form-grup">
-                  <label>Alamat Dosen</label>
-                  <textarea class="form-control" rows="4" placeholder="Enter..." required=""></textarea>
-                </div>
-              </div
-              <div class="col-md-6">
-                <div class="form-grup">
-                  <label>Matakuliah ID</label>
+                  <label>Jumlah Mahasiswa</label>
                   <div class="input-group">
                     <div class="input-group-addon">
                       <i class="fa fa-windows"></i>
                     </div>
-                    <input type="text" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
                   </div>
                 </div>
               </div>
