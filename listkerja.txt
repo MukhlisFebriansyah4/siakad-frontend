@@ -1,4 +1,4 @@
-absen_dosen = saadilah = 
+absen_dosen = saadilah (Selesai)
 absen_mahasiswa = fahril 
 berita acara kuliah =
 card 
