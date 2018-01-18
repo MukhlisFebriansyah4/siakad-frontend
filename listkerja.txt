@@ -11,8 +11,8 @@ model_has_permissions
 model_has_roles
 password_resets
 permissions
-progrestu
+progstu = Mukhlis = Selesai
 roles
 role_has_permissions
-ruangan
+ruangan = Mukhlis = Selesai
 users
