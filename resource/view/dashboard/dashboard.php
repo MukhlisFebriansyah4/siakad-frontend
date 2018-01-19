@@ -26,7 +26,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>A</b>LT</span>
+      <span class="logo-mini"><b>S</b>KD</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SIA</b>kad</span>
     </a>
@@ -39,7 +39,7 @@
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">          
+        <ul class="nav navbar-nav">
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
@@ -85,7 +85,7 @@
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->          
+          <!-- Control Sidebar Toggle Button -->
         </ul>
       </div>
     </nav>
@@ -112,7 +112,7 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
-        <!-- Optionally, you can add icons to the links -->                
+        <!-- Optionally, you can add icons to the links -->
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
             <span class="pull-right-container">
@@ -160,8 +160,8 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Selamat Datang Mahasiswa/Mahasiswi        
-      </h1>    
+        Selamat Datang Mahasiswa/Mahasiswi
+      </h1>
     </section>
 
     <!-- Main content -->
@@ -185,7 +185,7 @@
     <!-- Default to the left -->
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-  
+
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
