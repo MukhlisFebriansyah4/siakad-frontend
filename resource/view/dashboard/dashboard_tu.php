@@ -102,11 +102,7 @@
           <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
-<<<<<<< HEAD
-          <p>Muhamad fahril suahemi</p>
-=======
-          <p>Mukhlis Febriansyah</p>
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
+          <p>Nama Mahasiswa</p>
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -118,24 +114,15 @@
         <li class="header">HEADER</li>
         <!-- Optionally, you can add icons to the links -->
         <li class="treeview">
-<<<<<<< HEAD
-          <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
-=======
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
-<<<<<<< HEAD
-            <li><a href="Pembayaran.php">Kartu Pembayaran Study</a></li>
-            <li><a href="#">Kartu Hasil Study</a></li>
-=======
             <li><a href="#">Kartu Rencana Study</a></li>
             <li><a href="#">Kartu Hasil Study</a></li>
             <li><a href="#">Transkrip Nilai</a></li>
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
           </ul>
         </li>
         <li class="treeview">
@@ -146,11 +133,7 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Kartu Rencana Study</a></li>
-<<<<<<< HEAD
             <li><a href="nilai.php">Kartu Hasil Study</a></li>
-=======
-            <li><a href="#">Kartu Hasil Study</a></li>
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
@@ -177,11 +160,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-<<<<<<< HEAD
         Selamat Datang Tatausaha
-=======
-        Selamat Datang Mahasiswa/Mahasiswi
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
       </h1>
     </section>
 
