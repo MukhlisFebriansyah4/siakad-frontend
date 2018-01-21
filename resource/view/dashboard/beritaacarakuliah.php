@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Dashboard</title>
+  <title>Berita Acara Kuliah</title>
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="../../../public/admin/bower_components/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../../../public/admin/bower_components/font-awesome/css/font-awesome.min.css">
@@ -26,7 +26,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>KD</span>
+      <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SIA</b>kad</span>
     </a>
@@ -39,7 +39,7 @@
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav">          
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
@@ -85,7 +85,7 @@
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->
+          <!-- Control Sidebar Toggle Button -->          
         </ul>
       </div>
     </nav>
@@ -112,7 +112,7 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
-        <!-- Optionally, you can add icons to the links -->
+        <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
             <span class="pull-right-container">
@@ -170,18 +170,105 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Selamat Datang Mahasiswa/Mahasiswi
-      </h1>
+        Input Data Mata Kuliah
+      </h1>    
     </section>
 
     <!-- Main content -->
-    <section class="content container-fluid">
-
-      <!--------------------------
-        | Your Page Content Here |
-        -------------------------->
-        
-
+    <section class="content container-fluid">      
+        <div class="box box-default">
+      <div class="box-header with-border">
+        <h3 class="box-title">Form Input Data Berita Acara Kuliah</h3>
+          <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse">
+              <i class="fa fa-minus"></i>
+            </button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove">
+              <i class="fa fa-remove"></i>
+            </button>
+          </div>
+          <div class="box-body">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Program Study ID</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-gg-circle"></i>
+                    </div>
+                    <input type="text" class="form-control pull-right" required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>ID Dosen</label>
+                  <select class="form-control select2 select2-hidden-accessible pull-right" style="width:100%;" tabindex="-1" aria-hidden="true" required="">
+                    <option selected="selected" disabled="disabled">Nama Dosen</option>
+                    <option>1</option>
+                    <option>2</option>
+                  </select>
+                </div>
+              </div>              
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Tanggal</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-building"></i>
+                    </div>
+                    <input type="date" class="form-control" required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Acara Mulai/Masuk</label>
+                  <div class="input-group pull-right">
+                    <div class="input-group-addon">
+                      <i class="fa fa-hourglass-half"></i>
+                    </div>
+                    <input type="time" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Acara Selesei</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-windows"></i>
+                    </div>
+                    <input type="time" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Materi yang di sampaikan</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-windows"></i>
+                    </div>
+                    <input type="text" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-grup">
+                  <label>Jumlah Mahasiswa</label>
+                  <div class="input-group">
+                    <div class="input-group-addon">
+                      <i class="fa fa-windows"></i>
+                    </div>
+                    <input type="number" class="form-control" data-inputmask=""mask": "(999) 999-9999"" data-mask required="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>    
+      </div>
+    </div>
     </section>
     <!-- /.content -->
   </div>
@@ -196,7 +283,7 @@
     <!-- Default to the left -->
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-
+  
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>

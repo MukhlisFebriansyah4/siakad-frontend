@@ -26,7 +26,7 @@
     <!-- Logo -->
     <a href="index2.html" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>S</b>KD</span>
+      <span class="logo-mini"><b>A</b>LT</span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>SIA</b>kad</span>
     </a>
@@ -39,7 +39,7 @@
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav">          
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
@@ -47,7 +47,11 @@
               <!-- The user image in the navbar-->
               <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
+<<<<<<< HEAD
+              <span class="hidden-xs">Muhamad fahril suhaemi</span>
+=======
               <span class="hidden-xs">Mukhlis Febriansyah</span>
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -55,7 +59,11 @@
                 <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
+<<<<<<< HEAD
+                   Muhamad fahril suhaemi - Web Developer of SMK WIKRAMA BOGOR
+=======
                   Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
@@ -85,7 +93,7 @@
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->
+          <!-- Control Sidebar Toggle Button -->          
         </ul>
       </div>
     </nav>
@@ -102,7 +110,11 @@
           <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
         </div>
         <div class="pull-left info">
+<<<<<<< HEAD
+          <p>Muhamad fahril suahemi</p>
+=======
           <p>Mukhlis Febriansyah</p>
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
           <!-- Status -->
           <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
         </div>
@@ -112,17 +124,26 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
-        <!-- Optionally, you can add icons to the links -->
+        <!-- Optionally, you can add icons to the links -->                
         <li class="treeview">
+<<<<<<< HEAD
+          <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
+=======
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Rencana Study</span>
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
             <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
           </a>
           <ul class="treeview-menu">
+<<<<<<< HEAD
+            <li><a href="Pembayaran.php">Kartu Pembayaran Study</a></li>
+            <li><a href="#">Kartu Hasil Study</a></li>
+=======
             <li><a href="#">Kartu Rencana Study</a></li>
             <li><a href="#">Kartu Hasil Study</a></li>
             <li><a href="#">Transkrip Nilai</a></li>
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
           </ul>
         </li>
         <li class="treeview">
@@ -133,7 +154,11 @@
           </a>
           <ul class="treeview-menu">
             <li><a href="#">Kartu Rencana Study</a></li>
+<<<<<<< HEAD
+            <li><a href="nilai.php">Kartu Hasil Study</a></li>
+=======
             <li><a href="#">Kartu Hasil Study</a></li>
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
@@ -149,16 +174,6 @@
             <li><a href="#">Transkrip Nilai</a></li>
           </ul>
         </li>
-        <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>Input Data</span>
-            <span class="pull-right-container">
-                <i class="fa fa-angle-left pull-right"></i>
-              </span>
-          </a>
-          <ul class="treeview-menu">
-            <li><a href="daftar/daftarmahasiswa.php">Pendaftaran Mahasiswa</a></li>
-          </ul>
-        </li>
       </ul>
       <!-- /.sidebar-menu -->
     </section>
@@ -170,8 +185,12 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Selamat Datang Mahasiswa/Mahasiswi
-      </h1>
+<<<<<<< HEAD
+        Selamat Datang Tatausaha        
+=======
+        Selamat Datang Mahasiswa/Mahasiswi        
+>>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
+      </h1>    
     </section>
 
     <!-- Main content -->
@@ -180,7 +199,6 @@
       <!--------------------------
         | Your Page Content Here |
         -------------------------->
-        
 
     </section>
     <!-- /.content -->
@@ -196,7 +214,7 @@
     <!-- Default to the left -->
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-
+  
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>

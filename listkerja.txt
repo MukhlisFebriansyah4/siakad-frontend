@@ -1,0 +1,18 @@
+absen_dosen = saadilah = 
+absen_mahasiswa = fahril 
+berita acara kuliah = Mukhlis Febriansyah
+card 
+dosen = Mukhlis = Selesai
+mahasiswa 
+mahasiswa detail
+matkuliah = Mukhlis = Selesai
+migrations
+model_has_permissions	
+model_has_roles
+password_resets
+permissions = Mukhlis = Selesai
+progstu = Mukhlis = Selesai
+roles = Mukhlis = Selesai
+role_has_permissions
+ruangan = Mukhlis = Selesai
+users
