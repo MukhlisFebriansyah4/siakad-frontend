@@ -39,7 +39,7 @@
       </a>
       <!-- Navbar Right Menu -->
       <div class="navbar-custom-menu">
-        <ul class="nav navbar-nav">          
+        <ul class="nav navbar-nav">
           <!-- User Account Menu -->
           <li class="dropdown user user-menu">
             <!-- Menu Toggle Button -->
@@ -47,11 +47,7 @@
               <!-- The user image in the navbar-->
               <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
               <!-- hidden-xs hides the username on small devices so only the image appears. -->
-<<<<<<< HEAD
-              <span class="hidden-xs">Muhamad fahril suhaemi</span>
-=======
-              <span class="hidden-xs">Mukhlis Febriansyah</span>
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
+              <span class="hidden-xs">Nama Mahasiswa</span>
             </a>
             <ul class="dropdown-menu">
               <!-- The user image in the menu -->
@@ -59,12 +55,8 @@
                 <img src="../../../public/admin/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-<<<<<<< HEAD
-                   Muhamad fahril suhaemi - Web Developer of SMK WIKRAMA BOGOR
-=======
-                  Mukhlis Febriansyah - Web Developer of SMK WIKRAMA BOGOR
->>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
-                  <small>Member since Nov. 2012</small>
+                   Nama Mahasiswa - Jurusan , semester
+                  <small>Member since Nov. Tahun ajaran</small>
                 </p>
               </li>
               <!-- Menu Body -->
@@ -93,7 +85,7 @@
               </li>
             </ul>
           </li>
-          <!-- Control Sidebar Toggle Button -->          
+          <!-- Control Sidebar Toggle Button -->
         </ul>
       </div>
     </nav>
@@ -124,7 +116,7 @@
       <!-- Sidebar Menu -->
       <ul class="sidebar-menu" data-widget="tree">
         <li class="header">HEADER</li>
-        <!-- Optionally, you can add icons to the links -->                
+        <!-- Optionally, you can add icons to the links -->
         <li class="treeview">
 <<<<<<< HEAD
           <a href="#"><i class="fa fa-link"></i> <span>Kartu Pembayaran Study</span>
@@ -186,11 +178,11 @@
     <section class="content-header">
       <h1>
 <<<<<<< HEAD
-        Selamat Datang Tatausaha        
+        Selamat Datang Tatausaha
 =======
-        Selamat Datang Mahasiswa/Mahasiswi        
+        Selamat Datang Mahasiswa/Mahasiswi
 >>>>>>> 8acc1016989ed8c4c3630830d2fe6d8292bb8b41
-      </h1>    
+      </h1>
     </section>
 
     <!-- Main content -->
@@ -214,7 +206,7 @@
     <!-- Default to the left -->
     <strong>Copyright &copy; 2016 <a href="#">Company</a>.</strong> All rights reserved.
   </footer>
-  
+
   <!-- Add the sidebar's background. This div must be placed
   immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
